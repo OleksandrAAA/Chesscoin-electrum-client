@@ -1658,8 +1658,9 @@ def check_server_name(servername):
     found = servername.find("vps-84983adc.vps.ovh.net")
     if found != -1:
         servername = servername.replace("vps-84983adc.vps.ovh.net", "ChessCoin032-Emanuel-Lasker")
+        return servername
 
-    found = servername.find("vps-2e25352c.bps.ovh.net")
+    found = servername.find("vps-2e25352c.vps.ovh.net")
     if found != -1:
         servername = servername.replace("vps-2e25352c.vps.ovh.net", "ChessCoin032-Vera-Menchik")
     
